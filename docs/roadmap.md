@@ -1,4 +1,5 @@
 # roadmap
 
-- use automated testing and deployment
-- improve the website
+- add a footer
+- add all pages present in navigation.yml
+- add home link to site logo
