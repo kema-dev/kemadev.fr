@@ -75,6 +75,7 @@
 		}
 		p {
 			font-size: 1.5rem;
+			margin: 1rem;
 		}
 	}
 	.link_linkedin {
@@ -84,12 +85,42 @@
 		justify-content: left;
 		align-items: center;
 		font-size: 1.5rem;
+		margin-top: 1rem;
 		display: inline-block;
 		background: url("../images/linkedin-brands.svg") no-repeat;
 		background-size: contain;
 		color: black;
 		&:hover {
 			background: url("../images/linkedin-brands_blue.svg") no-repeat;
+			background-size: contain;
+			margin-left: 1rem;
+			font-weight: 600;
+			color: #2b83f7f6;
+		}
+		.linklogo {
+			position: relative;
+			width: 2rem;
+		}
+		.linktxt {
+			position: relative;
+			margin-left: 2.5rem;
+			color: inherit;
+		}
+	}
+	.link_cv {
+		transition: all 0.3s ease-in-out;
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+		align-items: center;
+		font-size: 1.5rem;
+		margin-top: 1rem;
+		display: inline-block;
+		background: url("../images/file-lines-solid.svg") no-repeat;
+		background-size: contain;
+		color: black;
+		&:hover {
+			background: url("../images/file-lines-solid_blue.svg") no-repeat;
 			background-size: contain;
 			margin-left: 1rem;
 			font-weight: 600;
@@ -112,6 +143,8 @@
 		justify-content: left;
 		align-items: center;
 		font-size: 1.5rem;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
 		display: inline-block;
 		background: url("../images/circle-info-solid.svg") no-repeat;
 		background-size: contain;
@@ -139,6 +172,8 @@
 		justify-content: left;
 		align-items: center;
 		font-size: 1.5rem;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
 		display: inline-block;
 		background: url("../images/code-branch-solid.svg") no-repeat;
 		background-size: contain;
