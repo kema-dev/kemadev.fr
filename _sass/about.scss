@@ -5,7 +5,141 @@
 	align-items: center;
 	justify-content: center;
 	top: 3rem;
-  margin-top: 3rem;
-	margin-bottom: 3rem;
 	width: 100%;
+	
+	.top {
+		position: relative;
+		width: 100%;
+		height: 65vh;
+		background-image: url('../images/data_flow_2_full_grayed.png');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		z-index: -1;
+	}
+	.top-inside {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: white;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 65vh;
+		font: 2rem 'Lato', sans-serif;
+	}
+	.subtitle {
+		font:  1.5rem 'Arial', sans-serif;
+	}
+	.artitle {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		font: 2rem 'Lato', sans-serif;
+		font-weight: 600;
+		font-size: 2.5rem;
+	}
+	.imgtxt {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+		width: 100%;
+		margin-bottom: 8vh;
+		height: 40vh;
+		font: 2rem 'Lato', sans-serif;
+		font-weight: 300;
+	}
+	.img {
+		position: relative;
+		height: 40vh;
+		align-items: center;
+		justify-content: center;
+		z-index: -1;
+	}
+	.txt {
+		display: flex;
+		flex-direction: column;
+		align-items: left;
+		justify-content: center;
+		max-width: 40vw;
+		margin-left: 4vw;
+		height: 40vh;
+		h4 {
+			font-size: 2.5rem;
+			margin: 0;
+		}
+		p {
+			font-size: 1.5rem;
+		}
+	}
+	.link {
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+		align-items: center;
+		font-size: 1.5rem;
+		.linklogo {
+			max-width: 2rem;
+		}
+		.linktxt {
+			margin-left: 0.5rem;
+			color: black;
+		}
+	}
+}
+
+.sep1 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 80vh;
+	margin: 0;
+	background-image: url('../images/42_lyon_full.jpg');
+	background-position: 50% 50%;
+	background-size: cover;
+	z-index: -1;
+}
+
+.sep2 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 80vh;
+	margin: 0;
+	background-image: url('../images/wise_choices_full.jpg');
+	background-position: 50% 50%;
+	background-size: cover;
+	z-index: -1;
+}
+
+.sep3 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 80vh;
+	margin: 0;
+	background-image: url('../images/links_technology_full.jpg');
+	background-position: 50% 50%;
+	background-size: cover;
+	z-index: -1;
+}
+
+.sep4 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 80vh;
+	margin: 0;
+	background-image: url('../images/sharing_ideas.png');
+	background-position: 50% 50%;
+	background-size: cover;
+	z-index: -1;
 }
