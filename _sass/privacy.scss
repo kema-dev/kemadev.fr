@@ -36,6 +36,17 @@
 		font: 1.5rem 'Arial', sans-serif;
 	}
 
+	.main_title {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: center;
+		font: 2rem 'Roboto', sans-serif;
+		font-weight: 600;
+		font-size: 2.5rem;
+		margin: 2.5rem;
+	}
+
 	body {
 		display: flex;
 		width: 100%;
