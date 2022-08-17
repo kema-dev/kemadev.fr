@@ -1,6 +1,7 @@
 .navigationWrapper {
   position: fixed;
 	top: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -9,9 +10,14 @@
   color: white;
   text-transform: uppercase;
   overflow: hidden;
-  width: 100%;
   height: 3rem;
+  width: 100vw;
   z-index: 1;
+
+  .site_logo {
+    color: white;
+    text-decoration: none;
+  }
 
   .logoWrapper {
     display: flex;
@@ -26,6 +32,7 @@
       padding-left: 4px;
       color: #2b83f7f6;
 			font-size: 1rem;
+      font-style: italic;
     }
   }
 
