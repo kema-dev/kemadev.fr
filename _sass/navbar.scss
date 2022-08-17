@@ -11,6 +11,7 @@
   overflow: hidden;
   width: 100%;
   height: 3rem;
+  z-index: 1;
 
   .logoWrapper {
     display: flex;
@@ -23,7 +24,7 @@
 
     .logo {
       padding-left: 4px;
-      color: #ea4f4c;
+      color: #2b83f7f6;
 			font-size: 1rem;
     }
   }
@@ -46,7 +47,7 @@
         color: white;
 
         &:hover {
-          color: #ea4f4c;
+          color: #2b83f7f6;
         }
       }
     }

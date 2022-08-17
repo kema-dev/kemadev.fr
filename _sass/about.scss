@@ -82,12 +82,18 @@
 		justify-content: left;
 		align-items: center;
 		font-size: 1.5rem;
-		.linklogo {
+		.linklogo_info {
 			max-width: 2rem;
 		}
 		.linktxt {
 			margin-left: 0.5rem;
 			color: black;
+			transition: all 0.3s ease-in-out;
+			&:hover {
+				color: #2b83f7f6;
+				margin-left: 1rem;
+				font-weight: 600;
+			}
 		}
 	}
 }

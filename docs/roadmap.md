@@ -1,6 +1,7 @@
 # roadmap
 
-- add a proper footer
+- add a proper footer (with privacy policy)
+- make quotes more stylish
 - unify fonts / colors
 - add a language switcher (in navbar)
 - make the website responsive
