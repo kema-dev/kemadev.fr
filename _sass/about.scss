@@ -76,24 +76,88 @@
 			font-size: 1.5rem;
 		}
 	}
-	.link {
+	.link_linkedin {
+		transition: all 0.3s ease-in-out;
 		display: flex;
 		flex-direction: row;
 		justify-content: left;
 		align-items: center;
 		font-size: 1.5rem;
-		.linklogo_info {
-			max-width: 2rem;
+		display: inline-block;
+		background: url("../images/linkedin-brands.svg") no-repeat;
+		background-size: contain;
+		color: black;
+		&:hover {
+			background: url("../images/linkedin-brands_blue.svg") no-repeat;
+			background-size: contain;
+			margin-left: 1rem;
+			font-weight: 600;
+			color: #2b83f7f6;
+		}
+		.linklogo {
+			position: relative;
+			width: 2rem;
 		}
 		.linktxt {
-			margin-left: 0.5rem;
-			color: black;
-			transition: all 0.3s ease-in-out;
-			&:hover {
-				color: #2b83f7f6;
-				margin-left: 1rem;
-				font-weight: 600;
-			}
+			position: relative;
+			margin-left: 2.5rem;
+			color: inherit;
+		}
+	}
+	.link_info {
+		transition: all 0.3s ease-in-out;
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+		align-items: center;
+		font-size: 1.5rem;
+		display: inline-block;
+		background: url("../images/circle-info-solid.svg") no-repeat;
+		background-size: contain;
+		color: black;
+		&:hover {
+			background: url("../images/circle-info-solid_blue.svg") no-repeat;
+			background-size: contain;
+			margin-left: 1rem;
+			font-weight: 600;
+			color: #2b83f7f6;
+		}
+		.linklogo {
+			position: relative;
+			width: 2rem;
+		}
+		.linktxt {
+			position: relative;
+			margin-left: 2.5rem;
+			color: inherit;
+		}
+	}
+	.link_git {
+		transition: all 0.3s ease-in-out;
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+		align-items: center;
+		font-size: 1.5rem;
+		display: inline-block;
+		background: url("../images/code-branch-solid.svg") no-repeat;
+		background-size: contain;
+		color: black;
+		&:hover {
+			background: url("../images/code-branch-solid_blue.svg") no-repeat;
+			background-size: contain;
+			margin-left: 1rem;
+			font-weight: 600;
+			color: #2b83f7f6;
+		}
+		.linklogo {
+			position: relative;
+			width: 2rem;
+		}
+		.linktxt {
+			position: relative;
+			margin-left: 2.5rem;
+			color: inherit;
 		}
 	}
 }
