@@ -1,7 +1,8 @@
 # roadmap
 
-- create a proper readme
-- work on branches
-- add a footer
-- add all pages present in navigation.yml
-- add home link to site logo
+- update CV download link
+- add privacy policy and contact pages
+- add a proper footer (with privacy policy)
+- note that this website is powered by a custom Jekyll and GitHub Pages
+- add a language switcher (in navbar)
+- make the website responsive
