@@ -1,10 +1,8 @@
 # roadmap
 
-- update CV viewer link
-- add contact page
-- add a proper footer (with privacy policy)
+- add a favicon
 - add a language switcher (in navbar)
-- improve the readme
-- adda favicon
 - make the website responsive
 - backup wordpress
+- set DNS for kemadev.fr
+- update resume's links
