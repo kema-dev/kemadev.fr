@@ -1,8 +1,8 @@
 # roadmap
 
-- add contact page
-- add a proper footer (with privacy policy)
-- add a language switcher (in navbar)
 - add a favicon
+- add a language switcher (in navbar)
 - make the website responsive
 - backup wordpress
+- set DNS for kemadev.fr
+- update resume's links

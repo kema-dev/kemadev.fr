@@ -12,23 +12,104 @@
   }
 }
 
-.foot_a {
-  color: white;
-  text-decoration: none;
-  box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+.link_contact {
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  display: inline-block;
+  background: url("../images/address-book-solid.svg") no-repeat;
+  background-size: contain;
+  color: black;
+
+  &:hover {
+    background: url("../images/address-book-solid_blue.svg") no-repeat;
+    background-size: contain;
+    font-weight: 600;
+    color: #2b83f7f6;
+  }
+
+  .linklogo {
+    position: relative;
+    width: 2rem;
+  }
+
+  .linktxt {
+    position: relative;
+    margin-left: 2.5rem;
+    color: inherit;
+  }
 }
 
-.foot_a:hover {
-  box-shadow: inset 0 -1.2em 0 hsla(0, 0%, 100%, 0.4);
+.link_privacy {
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  display: inline-block;
+  background: url("../images/user-shield-solid.svg") no-repeat;
+  background-size: contain;
+  color: black;
+
+  &:hover {
+    background: url("../images/user-shield-solid_blue.svg") no-repeat;
+    background-size: contain;
+    font-weight: 600;
+    color: #2b83f7f6;
+  }
+
+  .linklogo {
+    position: relative;
+    width: 2rem;
+  }
+
+  .linktxt {
+    position: relative;
+    margin-left: 2.5rem;
+    color: inherit;
+  }
 }
 
-.foot_li:last-child {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
+.link_home {
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  display: inline-block;
+  background: url("../images/house-solid.svg") no-repeat;
+  background-size: contain;
+  color: black;
+
+  &:hover {
+    background: url("../images/house-solid_blue.svg") no-repeat;
+    background-size: contain;
+    font-weight: 600;
+    color: #2b83f7f6;
+  }
+
+  .linklogo {
+    position: relative;
+    width: 2rem;
+  }
+
+  .linktxt {
+    position: relative;
+    margin-left: 2.5rem;
+    color: inherit;
+  }
 }
 
 .foot_div {
-	position: relative;
+  position: relative;
   font-family: "Roboto", sans-serif;
   width: 100%;
   display: flex;
