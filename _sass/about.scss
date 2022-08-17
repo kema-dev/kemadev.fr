@@ -166,8 +166,8 @@
 		align-items: center;
 		font-size: 1.5rem;
 		display: inline-block;
-		background: url("../images/angle-right-solid.svg") no-repeat;
-		background-size: 1rem;
+		background: url("../images/laptop-code-solid.svg") no-repeat;
+		background-size: 2rem;
 		.quotelogo {
 			width: 2rem;
 		}
@@ -178,30 +178,6 @@
 			margin-left: 2.5rem;
 			color: inherit;
 			font-style: italic;
-			display: flex;
-			flex-direction: row;
-			justify-content: left;
-			align-items: center;
-		}
-	}
-	.author_etzioni {
-		flex-direction: row;
-		justify-content: left;
-		align-items: center;
-		font-size: 1.5rem;
-		display: inline-block;
-		background: url("../images/laptop-code-solid.svg") no-repeat;
-		background-size: 2rem;
-		margin-top: 1.5rem;
-		.authorlogo {
-			width: 2rem;
-		}
-		.author {
-			position: relative;
-			margin: 0;
-			margin-top: 0.2rem;
-			margin-left: 2.5rem;
-			color: inherit;
 			display: flex;
 			flex-direction: row;
 			justify-content: left;
@@ -214,8 +190,8 @@
 		align-items: center;
 		font-size: 1.5rem;
 		display: inline-block;
-		background: url("../images/angle-right-solid.svg") no-repeat;
-		background-size: 1rem;
+		background: url("../images/user-secret-solid.svg") no-repeat;
+		background-size: 2rem;
 		.quotelogo {
 			width: 2rem;
 		}
@@ -226,30 +202,6 @@
 			margin-left: 2.5rem;
 			color: inherit;
 			font-style: italic;
-			display: flex;
-			flex-direction: row;
-			justify-content: left;
-			align-items: center;
-		}
-	}
-	.author_snowden {
-		flex-direction: row;
-		justify-content: left;
-		align-items: center;
-		font-size: 1.5rem;
-		display: inline-block;
-		background: url("../images/user-secret-solid.svg") no-repeat;
-		background-size: 2rem;
-		margin-top: 1.5rem;
-		.authorlogo {
-			width: 2rem;
-		}
-		.author {
-			position: relative;
-			margin: 0;
-			margin-top: 0.2rem;
-			margin-left: 2.5rem;
-			color: inherit;
 			display: flex;
 			flex-direction: row;
 			justify-content: left;
@@ -262,8 +214,8 @@
 		align-items: center;
 		font-size: 1.5rem;
 		display: inline-block;
-		background: url("../images/angle-right-solid.svg") no-repeat;
-		background-size: 1rem;
+		background: url("../images/linux-brands.svg") no-repeat;
+		background-size: 2rem;
 		margin-top: 1.5rem;
 		.quotelogo {
 			width: 2rem;
@@ -275,30 +227,6 @@
 			margin-left: 2.5rem;
 			color: inherit;
 			font-style: italic;
-			display: flex;
-			flex-direction: row;
-			justify-content: left;
-			align-items: center;
-		}
-	}
-	.author_torvalds {
-		flex-direction: row;
-		justify-content: left;
-		align-items: center;
-		font-size: 1.5rem;
-		display: inline-block;
-		background: url("../images/linux-brands.svg") no-repeat;
-		background-size: 2rem;
-		margin-top: 1.5rem;
-		.authorlogo {
-			width: 2rem;
-		}
-		.author {
-			position: relative;
-			margin: 0;
-			margin-top: 0.2rem;
-			margin-left: 2.5rem;
-			color: inherit;
 			display: flex;
 			flex-direction: row;
 			justify-content: left;
