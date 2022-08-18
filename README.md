@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-[![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/kema-dev/kemadev.fr/actions/workflows/pages.yml/badge.svg)](https://github.com/kema-dev/kemadev.fr/actions/workflows/pages.yml)
+[![Jekyll deployment](https://github.com/kema-dev/kemadev.fr/actions/workflows/pages.yml/badge.svg)](https://github.com/kema-dev/kemadev.fr/actions/workflows/pages.yml)
 
 ## About The Project
 
@@ -14,8 +14,3 @@ This repository is pretty straight forward as it holds the source files of my pe
 ## Contact
 
 kema-dev - [GitHub](https://github.com/kema-dev)
-
-## Acknowledgments
-
-* [Img Shields](https://shields.io)
-* [README.MD-Template](https://github.com/othneildrew/Best-README-Template)
