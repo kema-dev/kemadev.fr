@@ -1,6 +1,5 @@
 # roadmap
 
-- add a browser prefered language strategy
 - add a favicon
 - backup wordpress
 - set DNS for kemadev.fr
