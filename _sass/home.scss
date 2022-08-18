@@ -1,4 +1,4 @@
-.about {
+.home {
 	position: relative;
 	display: flex;
 	flex-direction: column;
@@ -11,7 +11,7 @@
 		position: relative;
 		width: 100%;
 		height: 65vmin;
-		background-image: url('../images/data_flow_2_full_grayed.png');
+		background-image: url('../img/data_flow_2_full_grayed.png');
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -88,11 +88,11 @@
 		font-size: 1.5rem;
 		margin-top: 1rem;
 		display: inline-block;
-		background: url("../images/linkedin-brands.svg") no-repeat;
+		background: url("../img/linkedin-brands.svg") no-repeat;
 		background-size: contain;
 		color: black;
 		&:hover {
-			background: url("../images/linkedin-brands_blue.svg") no-repeat;
+			background: url("../img/linkedin-brands_blue.svg") no-repeat;
 			background-size: contain;
 			margin-left: 1rem;
 			font-weight: 600;
@@ -117,11 +117,11 @@
 		font-size: 1.5rem;
 		margin-top: 1rem;
 		display: inline-block;
-		background: url("../images/file-lines-solid.svg") no-repeat;
+		background: url("../img/file-lines-solid.svg") no-repeat;
 		background-size: contain;
 		color: black;
 		&:hover {
-			background: url("../images/file-lines-solid_blue.svg") no-repeat;
+			background: url("../img/file-lines-solid_blue.svg") no-repeat;
 			background-size: contain;
 			margin-left: 1rem;
 			font-weight: 600;
@@ -147,11 +147,11 @@
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 		display: inline-block;
-		background: url("../images/circle-info-solid.svg") no-repeat;
+		background: url("../img/circle-info-solid.svg") no-repeat;
 		background-size: contain;
 		color: black;
 		&:hover {
-			background: url("../images/circle-info-solid_blue.svg") no-repeat;
+			background: url("../img/circle-info-solid_blue.svg") no-repeat;
 			background-size: contain;
 			margin-left: 1rem;
 			font-weight: 600;
@@ -176,11 +176,11 @@
 		margin-top: 1rem;
 		margin-bottom: 1rem;
 		display: inline-block;
-		background: url("../images/code-branch-solid.svg") no-repeat;
+		background: url("../img/code-branch-solid.svg") no-repeat;
 		background-size: contain;
 		color: black;
 		&:hover {
-			background: url("../images/code-branch-solid_blue.svg") no-repeat;
+			background: url("../img/code-branch-solid_blue.svg") no-repeat;
 			background-size: contain;
 			margin-left: 1rem;
 			font-weight: 600;
@@ -202,7 +202,7 @@
 		align-items: center;
 		font-size: 1.5rem;
 		display: inline-block;
-		background: url("../images/laptop-code-solid.svg") no-repeat;
+		background: url("../img/laptop-code-solid.svg") no-repeat;
 		background-size: 2rem;
 		.quotelogo {
 			width: 2rem;
@@ -226,7 +226,7 @@
 		align-items: center;
 		font-size: 1.5rem;
 		display: inline-block;
-		background: url("../images/user-secret-solid.svg") no-repeat;
+		background: url("../img/user-secret-solid.svg") no-repeat;
 		background-size: 2rem;
 		.quotelogo {
 			width: 2rem;
@@ -250,7 +250,7 @@
 		align-items: center;
 		font-size: 1.5rem;
 		display: inline-block;
-		background: url("../images/linux-brands.svg") no-repeat;
+		background: url("../img/linux-brands.svg") no-repeat;
 		background-size: 2rem;
 		margin-top: 1.5rem;
 		.quotelogo {
@@ -278,7 +278,7 @@
 	width: 100%;
 	height: 80vmin;
 	margin: 0;
-	background-image: url('../images/42_lyon_full.jpg');
+	background-image: url('../img/42_lyon_full.jpg');
 	background-position: 50% 50%;
 	background-size: cover;
 	z-index: -1;
@@ -291,7 +291,7 @@
 	width: 100%;
 	height: 80vmin;
 	margin: 0;
-	background-image: url('../images/wise_choices_full.jpg');
+	background-image: url('../img/wise_choices_full.jpg');
 	background-position: 50% 50%;
 	background-size: cover;
 	z-index: -1;
@@ -304,7 +304,7 @@
 	width: 100%;
 	height: 80vmin;
 	margin: 0;
-	background-image: url('../images/links_technology_full.jpg');
+	background-image: url('../img/links_technology_full.jpg');
 	background-position: 50% 50%;
 	background-size: cover;
 	z-index: -1;
@@ -317,7 +317,7 @@
 	width: 100%;
 	height: 80vmin;
 	margin: 0;
-	background-image: url('../images/sharing_ideas.png');
+	background-image: url('../img/sharing_ideas.png');
 	background-position: 50% 50%;
 	background-size: cover;
 	z-index: -1;
