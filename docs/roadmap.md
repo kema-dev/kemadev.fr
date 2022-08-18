@@ -1,6 +1,5 @@
 # roadmap
 
-- add a language switcher (in navbar)
 - add a browser prefered language strategy
 - add a favicon
 - backup wordpress
