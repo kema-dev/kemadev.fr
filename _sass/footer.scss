@@ -12,7 +12,7 @@
   }
 }
 
-.link_contact {
+.link_resume {
   transition: all 0.3s ease-in-out;
   display: flex;
   flex-direction: row;
@@ -21,9 +21,9 @@
   font-size: 1.5rem;
   margin-top: 1rem;
   display: inline-block;
-  background: url("../images/address-book-solid.svg") no-repeat;
+  background: url("../images/address-book-solid_white.svg") no-repeat;
   background-size: contain;
-  color: black;
+  color: #fefefe;
 
   &:hover {
     background: url("../images/address-book-solid_blue.svg") no-repeat;
@@ -53,9 +53,9 @@
   font-size: 1.5rem;
   margin-top: 1rem;
   display: inline-block;
-  background: url("../images/user-shield-solid.svg") no-repeat;
+  background: url("../images/user-shield-solid_white.svg") no-repeat;
   background-size: contain;
-  color: black;
+  color: #fefefe;
 
   &:hover {
     background: url("../images/user-shield-solid_blue.svg") no-repeat;
@@ -85,9 +85,9 @@
   font-size: 1.5rem;
   margin-top: 1rem;
   display: inline-block;
-  background: url("../images/house-solid.svg") no-repeat;
+  background: url("../images/house-solid_white.svg") no-repeat;
   background-size: contain;
-  color: black;
+  color: #fefefe;
 
   &:hover {
     background: url("../images/house-solid_blue.svg") no-repeat;
