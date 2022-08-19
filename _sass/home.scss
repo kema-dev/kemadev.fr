@@ -1,7 +1,28 @@
-@keyframes appear {
-  0% {height: 100vh;}
-	50% {height: 100vh;}
-  100% {height: 35vh;}
+@keyframes bounce {
+  0% {
+    -moz-transform: translateY(-2vh);
+    -ms-transform: translateY(-2vh);
+    -webkit-transform: translateY(-2vh);
+    transform: rotate(90deg) translateX(-2vh);
+  }
+  30% {
+    -moz-transform: translateY(0vh);
+    -ms-transform: translateY(0vh);
+    -webkit-transform: translateY(0vh);
+    transform: rotate(90deg) translateX(0vh);
+  }
+	80% {
+    -moz-transform: translateY(-2vh);
+    -ms-transform: translateY(-2vh);
+    -webkit-transform: translateY(-2vh);
+    transform: rotate(90deg) translateX(-2vh);
+  }
+	100% {
+    -moz-transform: translateY(-2vh);
+    -ms-transform: translateY(-2vh);
+    -webkit-transform: translateY(-2vh);
+    transform: rotate(90deg) translateX(-2vh);
+  }
 }
 
 .home {
@@ -14,7 +35,7 @@
 	top: 3rem;
 	width: 100%;
 	.top {
-		animation: appear 3s forwards;
+		height: 100vh;
 		position: relative;
 		width: 100%;
 		background-image: url('../img/data_flow_2_full_grayed.png');
@@ -22,9 +43,27 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		z-index: -1;
+		.hint {
+			width: 100%;
+			.hint_img {
+				position: absolute;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				width: 100%;
+				bottom: 5vh;
+				left: 50%;
+				z-index: 1;
+				max-width: 2rem;
+				bottom: 5vh;
+				filter: opacity(0.75) drop-shadow(0 0 1rem rgb(230, 197, 10));
+				animation: bounce 2.5s ease-in-out infinite;
+			}
+		}
 	}
 	.top-inside {
-		animation: appear 3s forwards;
+		// animation: appear 3s forwards;
+		height: 100vh;
 		position: relative;
 		display: flex;
 		flex-direction: column;

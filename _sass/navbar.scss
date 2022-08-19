@@ -49,6 +49,23 @@
     .parent {
       padding: 0 10px;
       cursor: pointer;
+      
+      .flag_uk {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-height: 1rem;
+        transform: scaleX(0.8);
+        border: #adadad solid 1px;
+      }
+
+      .flag_fr {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-height: 1rem;
+        border: #adadad solid 1px;
+      }
 
       .link {
         position: relative;
