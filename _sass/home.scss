@@ -96,6 +96,7 @@
 	.img {
 		display: flex;
 		position: relative;
+		min-width: 25vw;
 		max-width: 45vw;
 		object-fit: contain;
 		align-items: center;
@@ -134,7 +135,7 @@
 		&:hover {
 			background: url("../img/linkedin-brands_blue.svg") no-repeat;
 			background-size: contain;
-			margin-left: 1rem;
+			transform: translateX(1rem);
 			font-weight: 600;
 			color: #2b83f7f6;
 		}
@@ -163,7 +164,7 @@
 		&:hover {
 			background: url("../img/file-lines-solid_blue.svg") no-repeat;
 			background-size: contain;
-			margin-left: 1rem;
+			transform: translateX(1rem);
 			font-weight: 600;
 			color: #2b83f7f6;
 		}
@@ -193,7 +194,7 @@
 		&:hover {
 			background: url("../img/circle-info-solid_blue.svg") no-repeat;
 			background-size: contain;
-			margin-left: 1rem;
+			transform: translateX(1rem);
 			font-weight: 600;
 			color: #2b83f7f6;
 		}
@@ -222,7 +223,7 @@
 		&:hover {
 			background: url("../img/code-branch-solid_blue.svg") no-repeat;
 			background-size: contain;
-			margin-left: 1rem;
+			transform: translateX(1rem);
 			font-weight: 600;
 			color: #2b83f7f6;
 		}
