@@ -1,6 +1,8 @@
 html {
   width: 100%;
   scrollbar-width: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
