@@ -74,7 +74,7 @@
 		left: 0;
 		width: 100%;
 		font-size: 6rem;
-		font: 2rem 'JetBrainsMono-ExtraBoldItalic', sans-serif;
+		font: 2rem 'JetBrainsMono-BoldItalic', sans-serif;
 	}
 	.subtitle {
 		font:  1.5rem 'JetBrainsMono-Regular', sans-serif;
@@ -84,7 +84,7 @@
 		align-items: center;
 		justify-content: center;
 		font: 2rem 'JetBrainsMono-Regular', sans-serif;
-		font-weight: 600;
+		font-family: 'JetBrainsMono-Bold';
 		font-size: 2.5rem;
 		margin: 2.5rem;
 	}
@@ -95,7 +95,6 @@
 		justify-content: center;
 		margin-bottom: 8vmin;
 		font: 2rem 'JetBrainsMono-Regular', sans-serif;
-		font-weight: 300;
 	}
 	.img {
 		display: flex;
@@ -141,7 +140,7 @@
 			background: url("../img/linkedin-brands_blue.svg") no-repeat;
 			background-size: contain;
 			transform: translateX(1rem);
-			font-weight: 600;
+			font-family: 'JetBrainsMono-Bold';
 			color: #2b83f7f6;
 		}
 		.linklogo {
@@ -171,7 +170,7 @@
 			background: url("../img/file-lines-solid_blue.svg") no-repeat;
 			background-size: contain;
 			transform: translateX(1rem);
-			font-weight: 600;
+			font-family: 'JetBrainsMono-Bold';
 			color: #2b83f7f6;
 		}
 		.linklogo {
@@ -202,7 +201,7 @@
 			background: url("../img/circle-info-solid_blue.svg") no-repeat;
 			background-size: contain;
 			transform: translateX(1rem);
-			font-weight: 600;
+			font-family: 'JetBrainsMono-Bold';
 			color: #2b83f7f6;
 		}
 		.linklogo {
@@ -232,7 +231,7 @@
 			background: url("../img/code-branch-solid_blue.svg") no-repeat;
 			background-size: contain;
 			transform: translateX(1rem);
-			font-weight: 600;
+			font-family: 'JetBrainsMono-Bold';
 			color: #2b83f7f6;
 		}
 		.linklogo {

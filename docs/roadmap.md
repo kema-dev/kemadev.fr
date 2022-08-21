@@ -1,6 +1,4 @@
 # roadmap
 
-- add hero logo to all pages
-- fix logo display on mobile
-- fix font-weight problem on mobile (change font to bold ?)
+- add an animation for scroll button @click
 - fix footer icons growing unexpectedly

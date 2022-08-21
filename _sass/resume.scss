@@ -6,6 +6,10 @@
 	justify-content: center;
 	top: 3rem;
 	width: 100%;
+	.title_logo {
+		height: 15vh;
+		margin-bottom: 3vh;
+	}
 	.top {
 		position: relative;
 		width: 100%;
@@ -27,7 +31,7 @@
 		left: 0;
 		width: 100%;
 		height: 35vmin;
-		font: 2rem 'JetBrainsMono-ExtraBoldItalic', sans-serif;
+		font: 2rem 'JetBrainsMono-BoldItalic', sans-serif;
 	}
 	.subtitle {
 		font:  1.5rem 'JetBrainsMono-Regular', sans-serif;
@@ -38,7 +42,7 @@
 		align-items: center;
 		justify-content: center;
 		font: 2rem 'JetBrainsMono-Regular', sans-serif;
-		font-weight: 600;
+		font-family: 'JetBrainsMono-Bold';
 		font-size: 2.5rem;
 	}
 	.page {
@@ -48,7 +52,7 @@
 			align-items: center;
 			justify-content: center;
 			font: 2rem 'JetBrainsMono-Regular', sans-serif;
-			font-weight: 600;
+			font-family: 'JetBrainsMono-Bold';
 			font-size: 2.5rem;
 			margin: 2.5rem;
 		}
@@ -64,7 +68,7 @@
 		align-items: center;
 		justify-content: center;
 		font: 2rem 'JetBrainsMono-Regular', sans-serif;
-		font-weight: 600;
+		font-family: 'JetBrainsMono-Bold';
 		a {
 			color: #2b83f7f6;
 			&:hover {
