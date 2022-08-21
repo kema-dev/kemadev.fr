@@ -1,4 +1,4 @@
 # roadmap
 
+- add an animation for scroll button @click
 - fix footer icons growing unexpectedly
-- see if webkit / moz font smoothing fixed the problem of font-weight on mobile
