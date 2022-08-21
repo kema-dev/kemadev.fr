@@ -92,7 +92,7 @@
 		position: relative;
 		display: flex;
 		flex-direction: row;
-		justify-content: left;
+		justify-content: center;
 		margin-bottom: 8vmin;
 		font: 2rem 'JetBrainsMono-Regular', sans-serif;
 		font-weight: 300;
@@ -136,6 +136,7 @@
 		background: url("../img/linkedin-brands.svg") no-repeat;
 		background-size: contain;
 		color: black;
+		width: fit-content;
 		&:hover {
 			background: url("../img/linkedin-brands_blue.svg") no-repeat;
 			background-size: contain;
@@ -165,6 +166,7 @@
 		background: url("../img/file-lines-solid.svg") no-repeat;
 		background-size: contain;
 		color: black;
+		width: fit-content;
 		&:hover {
 			background: url("../img/file-lines-solid_blue.svg") no-repeat;
 			background-size: contain;
@@ -195,6 +197,7 @@
 		background: url("../img/circle-info-solid.svg") no-repeat;
 		background-size: contain;
 		color: black;
+		width: fit-content;
 		&:hover {
 			background: url("../img/circle-info-solid_blue.svg") no-repeat;
 			background-size: contain;
@@ -224,6 +227,7 @@
 		background: url("../img/code-branch-solid.svg") no-repeat;
 		background-size: contain;
 		color: black;
+		width: fit-content;
 		&:hover {
 			background: url("../img/code-branch-solid_blue.svg") no-repeat;
 			background-size: contain;
