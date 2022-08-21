@@ -35,11 +35,11 @@
 	top: 3rem;
 	width: 100%;
 	.title_logo {
-		height: 15vh;
+		height: 12rem;
 		margin-bottom: 3vh;
 	}
 	.top {
-		height: 100vh;
+		height: 100%;
 		position: relative;
 		width: 100%;
 		background-image: url('../img/data_flow_2_full_grayed.png');
@@ -74,10 +74,9 @@
 		left: 0;
 		width: 100%;
 		font-size: 6rem;
-		font: 2rem 'JetBrainsMono-BoldItalic', sans-serif;
 	}
 	.subtitle {
-		font:  1.5rem 'JetBrainsMono-Regular', sans-serif;
+		font: 1.5rem 'JetBrainsMono-Regular', sans-serif;
 	}
 	.artitle {
 		display: flex;
