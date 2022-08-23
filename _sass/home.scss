@@ -76,15 +76,15 @@
 		font-size: 6rem;
 	}
 	.subtitle {
-		font: 1.5rem 'JetBrainsMono-Regular', sans-serif;
+		font-size: 1.5rem;
+		font-family: 'JetBrainsMono-Bold';
 	}
 	.artitle {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		font: 2rem 'JetBrainsMono-Regular', sans-serif;
-		font-family: 'JetBrainsMono-Bold';
 		font-size: 2.5rem;
+		font-family: 'JetBrainsMono-Bold';
 		margin: 2.5rem;
 	}
 	.imgtxt {
@@ -93,7 +93,8 @@
 		flex-direction: row;
 		justify-content: center;
 		margin-bottom: 8vmin;
-		font: 2rem 'JetBrainsMono-Regular', sans-serif;
+		font-family: 'JetBrainsMono-Regular';
+		font-size: 2rem;
 	}
 	.img {
 		display: flex;
@@ -114,7 +115,7 @@
 		margin-left: 4vw;
 		height: auto;
 		h4 {
-			font-size: 2.5rem;
+			font-size: 2rem;
 			margin: 0;
 		}
 		p {
