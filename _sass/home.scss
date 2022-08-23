@@ -37,8 +37,10 @@
 	.title_logo {
 		height: 12rem;
 		margin-bottom: 3vh;
+		transition: height 1s ease;
 	}
 	.top {
+		transition: height 2s ease;
 		height: 100%;
 		position: relative;
 		width: 100%;
@@ -46,10 +48,11 @@
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
-		z-index: -1;
 		.hint {
+			transition: height 2s ease;
 			width: 100%;
 			.hint_img {
+				transition: height 2s ease;
 				position: absolute;
 				width: 100%;
 				bottom: 10%;
@@ -62,7 +65,7 @@
 		}
 	}
 	.top-inside {
-		// animation: appear 3s forwards;
+		transition: height 2s ease;
 		height: 100vh;
 		position: relative;
 		display: flex;
@@ -76,8 +79,9 @@
 		font-size: 6rem;
 	}
 	.subtitle {
+		font-family: 'JetBrainsMono-Regular';
 		font-size: 1.5rem;
-		font-family: 'JetBrainsMono-Bold';
+		font-weight: normal;
 	}
 	.artitle {
 		display: flex;

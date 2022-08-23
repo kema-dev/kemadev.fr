@@ -18,7 +18,6 @@
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
-		z-index: -1;
 	}
 
 	.top-inside {
@@ -37,6 +36,7 @@
 	.subtitle {
 		font-family: 'JetBrainsMono-Regular';
 		font-size: 1.5rem;
+		font-weight: normal;
 	}
 
 	.main_title {
