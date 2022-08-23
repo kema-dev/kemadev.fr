@@ -32,8 +32,7 @@
 		height: 35vmin;
 	}
 	.subtitle {
-		font-family: 'JetBrainsMono-Regular';
-		font-size: 1.5rem;
+		font: 1.5rem 'JetBrainsMono-Regular';
 		font-weight: normal;
 	}
 	.title {
@@ -41,8 +40,7 @@
 		width: 100%;
 		align-items: center;
 		justify-content: center;
-		font-family: 'JetBrainsMono-Bold';
-		font-size: 2.5rem;
+		font: 2.5rem 'JetBrainsMono-Bold';
 	}
 	.page {
 		.heading {
@@ -50,8 +48,7 @@
 			width: 100%;
 			align-items: center;
 			justify-content: center;
-			font-family: 'JetBrainsMono-Bold';
-			font-size: 2.5rem;
+			font: 2.5rem 'JetBrainsMono-Bold';
 			margin: 2.5rem;
 		}
 	}
@@ -65,8 +62,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		font-family: 'JetBrainsMono-Bold';
-		font-size: 2rem;
+		font: 2rem 'JetBrainsMono-Bold';
 		a {
 			color: #2b83f7f6;
 			&:hover {

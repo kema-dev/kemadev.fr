@@ -34,8 +34,7 @@
 	}
 
 	.subtitle {
-		font-family: 'JetBrainsMono-Regular';
-		font-size: 1.5rem;
+		font: 1.5rem 'JetBrainsMono-Regular';
 		font-weight: normal;
 	}
 
@@ -44,8 +43,7 @@
 		width: 100%;
 		align-items: center;
 		justify-content: center;
-		font-family: 'JetBrainsMono-Bold';
-		font-size: 2.5rem;
+		font: 2.5rem 'JetBrainsMono-Bold';
 		margin: 2.5rem;
 	}
 
@@ -60,16 +58,14 @@
 
 	.title {
 		width: 75vw;
-		font-family: 'JetBrainsMono-Bold';
-		font-size: 2rem;
+		font: 2rem 'JetBrainsMono-Bold';
 		margin: 2.5rem;
 		color: black;
 	}
 
 	.paragraph {
 		width: 75vw;
-		font-family: 'JetBrainsMono-Regular';
-		font-size: 1.5rem;
+		font: 1.5rem 'JetBrainsMono-Regular';
 		align-items: left;
 		justify-content: center;
 		color: black;
