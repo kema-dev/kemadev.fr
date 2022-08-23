@@ -41,6 +41,7 @@
 		align-items: center;
 		justify-content: center;
 		font: 2.5rem 'JetBrainsMono-Bold';
+		font-weight: normal;
 	}
 	.page {
 		.heading {
@@ -48,8 +49,9 @@
 			width: 100%;
 			align-items: center;
 			justify-content: center;
-			font: 2.5rem 'JetBrainsMono-Bold';
 			margin: 2.5rem;
+			font: 2.5rem 'JetBrainsMono-Bold';
+			font-weight: normal;
 		}
 	}
 }
@@ -63,6 +65,7 @@
 		align-items: center;
 		justify-content: center;
 		font: 2rem 'JetBrainsMono-Bold';
+		font-weight: normal;
 		a {
 			color: #2b83f7f6;
 			&:hover {

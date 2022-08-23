@@ -43,8 +43,9 @@
 		width: 100%;
 		align-items: center;
 		justify-content: center;
-		font: 2.5rem 'JetBrainsMono-Bold';
 		margin: 2.5rem;
+		font: 2.5rem 'JetBrainsMono-Bold';
+		font-weight: normal;
 	}
 
 	body {
@@ -58,17 +59,19 @@
 
 	.title {
 		width: 75vw;
-		font: 2rem 'JetBrainsMono-Bold';
 		margin: 2.5rem;
 		color: black;
+		font: 2rem 'JetBrainsMono-Bold';
+		font-weight: normal;
 	}
 
 	.paragraph {
 		width: 75vw;
-		font: 1.5rem 'JetBrainsMono-Regular';
 		align-items: left;
 		justify-content: center;
 		color: black;
+		font: 1.5rem 'JetBrainsMono-Regular';
+		font-weight: normal;
 	}
 
 	a {

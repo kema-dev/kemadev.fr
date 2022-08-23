@@ -80,13 +80,15 @@
 	}
 	.subtitle {
 		font: 1.5rem 'JetBrainsMono-Regular';
+		font-weight: normal;
 	}
 	.artitle {
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		font: 2.5rem 'JetBrainsMono-Bold';
 		margin: 2.5rem;
+		font: 2.5rem 'JetBrainsMono-Bold';
+		font-weight: normal;
 	}
 	.imgtxt {
 		position: relative;
@@ -95,6 +97,7 @@
 		justify-content: center;
 		margin-bottom: 8vmin;
 		font: 2rem 'JetBrainsMono-Regular';
+		font-weight: normal;
 	}
 	.img {
 		display: flex;

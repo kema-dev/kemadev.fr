@@ -28,8 +28,9 @@
     display: flex;
 
     .stylish {
-      font: 1.5rem 'JetBrainsMono-Bold';
 			margin-left: 2rem;
+      font: 1.5rem 'JetBrainsMono-Bold';
+      font-weight: normal;
     }
 
     .logo {
