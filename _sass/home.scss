@@ -83,244 +83,247 @@
 		font: 1.5rem 'JetBrainsMono-Regular';
 		font-weight: normal;
 	}
-	.artitle {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		margin: 2.5rem;
-		font: 2.5rem 'JetBrainsMono-Bold';
-		font-weight: normal;
-	}
-	.imgtxt {
-		position: relative;
-		display: flex;
-		flex-direction: row;
-		justify-content: center;
-		margin-bottom: 8vmin;
-		font: 2rem 'JetBrainsMono-Regular';
-		font-weight: normal;
-	}
-	.img {
-		display: flex;
-		position: relative;
-		min-width: 25vw;
-		max-width: 45vw;
-		object-fit: contain;
-		align-items: center;
-		justify-content: center;
-		z-index: -1;
-	}
-	.txt {
-		display: flex;
-		flex-direction: column;
-		align-items: left;
-		justify-content: center;
-		max-width: 45vw;
-		margin-left: 4vw;
-		height: auto;
-		h4 {
-			margin: 0;
-			font: 2rem 'JetBrainsMono-Bold';
+	.article {
+		width: 100%;
+		.artitle {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 2.5rem;
+			font: 2.5rem 'JetBrainsMono-Bold';
 			font-weight: normal;
 		}
-		p {
+		.imgtxt {
+			position: relative;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			margin-bottom: 8vmin;
+			font: 2rem 'JetBrainsMono-Regular';
+			font-weight: normal;
+		}
+		.img {
+			display: flex;
+			position: relative;
+			min-width: 25vw;
+			max-width: 45vw;
+			object-fit: contain;
+			align-items: center;
+			justify-content: center;
+			z-index: -1;
+		}
+		.txt {
+			display: flex;
+			flex-direction: column;
+			align-items: left;
+			justify-content: center;
+			max-width: 45vw;
+			margin-left: 4vw;
+			height: auto;
+			h4 {
+				margin: 0;
+				font: 2rem 'JetBrainsMono-Bold';
+				font-weight: normal;
+			}
+			p {
+				font-size: 1.5rem;
+				margin: 1rem;
+			}
+		}
+		.link_linkedin {
+			transition: all 0.3s ease-in-out;
+			display: flex;
+			flex-direction: row;
+			justify-content: left;
+			align-items: center;
 			font-size: 1.5rem;
-			margin: 1rem;
-		}
-	}
-	.link_linkedin {
-		transition: all 0.3s ease-in-out;
-		display: flex;
-		flex-direction: row;
-		justify-content: left;
-		align-items: center;
-		font-size: 1.5rem;
-		margin-top: 1rem;
-		display: inline-block;
-		background: url("../img/linkedin-brands.svg") no-repeat;
-		background-size: contain;
-		color: black;
-		width: fit-content;
-		&:hover {
-			background: url("../img/linkedin-brands_blue.svg") no-repeat;
+			margin-top: 1rem;
+			display: inline-block;
+			background: url("../img/linkedin-brands.svg") no-repeat;
 			background-size: contain;
-			transform: translateX(1rem);
-			font-family: 'JetBrainsMono-Bold';
-			color: #2b83f7f6;
+			color: black;
+			width: fit-content;
+			&:hover {
+				background: url("../img/linkedin-brands_blue.svg") no-repeat;
+				background-size: contain;
+				transform: translateX(1rem);
+				font-family: 'JetBrainsMono-Bold';
+				color: #2b83f7f6;
+			}
+			.linklogo {
+				position: relative;
+				width: 2rem;
+			}
+			.linktxt {
+				position: relative;
+				margin-left: 2.5rem;
+				color: inherit;
+			}
 		}
-		.linklogo {
-			position: relative;
-			width: 2rem;
-		}
-		.linktxt {
-			position: relative;
-			margin-left: 2.5rem;
-			color: inherit;
-		}
-	}
-	.link_cv {
-		transition: all 0.3s ease-in-out;
-		display: flex;
-		flex-direction: row;
-		justify-content: left;
-		align-items: center;
-		font-size: 1.5rem;
-		margin-top: 1rem;
-		display: inline-block;
-		background: url("../img/file-lines-solid.svg") no-repeat;
-		background-size: contain;
-		color: black;
-		width: fit-content;
-		&:hover {
-			background: url("../img/file-lines-solid_blue.svg") no-repeat;
-			background-size: contain;
-			transform: translateX(1rem);
-			font-family: 'JetBrainsMono-Bold';
-			color: #2b83f7f6;
-		}
-		.linklogo {
-			position: relative;
-			width: 2rem;
-		}
-		.linktxt {
-			position: relative;
-			margin-left: 2.5rem;
-			color: inherit;
-		}
-	}
-	.link_info {
-		transition: all 0.3s ease-in-out;
-		display: flex;
-		flex-direction: row;
-		justify-content: left;
-		align-items: center;
-		font-size: 1.5rem;
-		margin-top: 1rem;
-		margin-bottom: 1rem;
-		display: inline-block;
-		background: url("../img/circle-info-solid.svg") no-repeat;
-		background-size: contain;
-		color: black;
-		width: fit-content;
-		&:hover {
-			background: url("../img/circle-info-solid_blue.svg") no-repeat;
-			background-size: contain;
-			transform: translateX(1rem);
-			font-family: 'JetBrainsMono-Bold';
-			color: #2b83f7f6;
-		}
-		.linklogo {
-			position: relative;
-			width: 2rem;
-		}
-		.linktxt {
-			position: relative;
-			margin-left: 2.5rem;
-			color: inherit;
-		}
-	}
-	.link_git {
-		transition: all 0.3s ease-in-out;
-		flex-direction: row;
-		justify-content: left;
-		align-items: center;
-		font-size: 1.5rem;
-		margin-top: 1rem;
-		margin-bottom: 1rem;
-		display: inline-block;
-		background: url("../img/code-branch-solid.svg") no-repeat;
-		background-size: contain;
-		color: black;
-		width: fit-content;
-		&:hover {
-			background: url("../img/code-branch-solid_blue.svg") no-repeat;
-			background-size: contain;
-			transform: translateX(1rem);
-			font-family: 'JetBrainsMono-Bold';
-			color: #2b83f7f6;
-		}
-		.linklogo {
-			position: relative;
-			width: 2rem;
-		}
-		.linktxt {
-			position: relative;
-			margin-left: 2.5rem;
-			color: inherit;
-		}
-	}
-	.quote_etzioni {
-		flex-direction: row;
-		justify-content: left;
-		align-items: center;
-		font-size: 1.5rem;
-		display: inline-block;
-		background: url("../img/laptop-code-solid.svg") no-repeat;
-		background-size: 2rem;
-		max-width: 45vw;
-		.quotelogo {
-			width: 2rem;
-		}
-		.citation {
-			position: relative;
-			margin: 0;
-			margin-top: 0.2rem;
-			margin-left: 2.5rem;
-			color: inherit;
-			font-style: italic;
+		.link_cv {
+			transition: all 0.3s ease-in-out;
 			display: flex;
 			flex-direction: row;
 			justify-content: left;
 			align-items: center;
+			font-size: 1.5rem;
+			margin-top: 1rem;
+			display: inline-block;
+			background: url("../img/file-lines-solid.svg") no-repeat;
+			background-size: contain;
+			color: black;
+			width: fit-content;
+			&:hover {
+				background: url("../img/file-lines-solid_blue.svg") no-repeat;
+				background-size: contain;
+				transform: translateX(1rem);
+				font-family: 'JetBrainsMono-Bold';
+				color: #2b83f7f6;
+			}
+			.linklogo {
+				position: relative;
+				width: 2rem;
+			}
+			.linktxt {
+				position: relative;
+				margin-left: 2.5rem;
+				color: inherit;
+			}
 		}
-	}
-	.quote_snowden {
-		flex-direction: row;
-		justify-content: left;
-		align-items: center;
-		font-size: 1.5rem;
-		display: inline-block;
-		background: url("../img/user-secret-solid.svg") no-repeat;
-		background-size: 2rem;
-		.quotelogo {
-			width: 2rem;
-		}
-		.citation {
-			position: relative;
-			margin: 0;
-			margin-top: 0.2rem;
-			margin-left: 2.5rem;
-			color: inherit;
-			font-style: italic;
+		.link_info {
+			transition: all 0.3s ease-in-out;
 			display: flex;
 			flex-direction: row;
 			justify-content: left;
 			align-items: center;
+			font-size: 1.5rem;
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+			display: inline-block;
+			background: url("../img/circle-info-solid.svg") no-repeat;
+			background-size: contain;
+			color: black;
+			width: fit-content;
+			&:hover {
+				background: url("../img/circle-info-solid_blue.svg") no-repeat;
+				background-size: contain;
+				transform: translateX(1rem);
+				font-family: 'JetBrainsMono-Bold';
+				color: #2b83f7f6;
+			}
+			.linklogo {
+				position: relative;
+				width: 2rem;
+			}
+			.linktxt {
+				position: relative;
+				margin-left: 2.5rem;
+				color: inherit;
+			}
 		}
-	}
-	.quote_torvalds {
-		flex-direction: row;
-		justify-content: left;
-		align-items: center;
-		font-size: 1.5rem;
-		display: inline-block;
-		background: url("../img/linux-brands.svg") no-repeat;
-		background-size: 2rem;
-		margin-top: 1.5rem;
-		.quotelogo {
-			width: 2rem;
-		}
-		.citation {
-			position: relative;
-			margin: 0;
-			margin-top: 0.2rem;
-			margin-left: 2.5rem;
-			color: inherit;
-			font-style: italic;
-			display: flex;
+		.link_git {
+			transition: all 0.3s ease-in-out;
 			flex-direction: row;
 			justify-content: left;
 			align-items: center;
+			font-size: 1.5rem;
+			margin-top: 1rem;
+			margin-bottom: 1rem;
+			display: inline-block;
+			background: url("../img/code-branch-solid.svg") no-repeat;
+			background-size: contain;
+			color: black;
+			width: fit-content;
+			&:hover {
+				background: url("../img/code-branch-solid_blue.svg") no-repeat;
+				background-size: contain;
+				transform: translateX(1rem);
+				font-family: 'JetBrainsMono-Bold';
+				color: #2b83f7f6;
+			}
+			.linklogo {
+				position: relative;
+				width: 2rem;
+			}
+			.linktxt {
+				position: relative;
+				margin-left: 2.5rem;
+				color: inherit;
+			}
+		}
+		.quote_etzioni {
+			flex-direction: row;
+			justify-content: left;
+			align-items: center;
+			font-size: 1.5rem;
+			display: inline-block;
+			background: url("../img/laptop-code-solid.svg") no-repeat;
+			background-size: 2rem;
+			max-width: 45vw;
+			.quotelogo {
+				width: 2rem;
+			}
+			.citation {
+				position: relative;
+				margin: 0;
+				margin-top: 0.2rem;
+				margin-left: 2.5rem;
+				color: inherit;
+				font-style: italic;
+				display: flex;
+				flex-direction: row;
+				justify-content: left;
+				align-items: center;
+			}
+		}
+		.quote_snowden {
+			flex-direction: row;
+			justify-content: left;
+			align-items: center;
+			font-size: 1.5rem;
+			display: inline-block;
+			background: url("../img/user-secret-solid.svg") no-repeat;
+			background-size: 2rem;
+			.quotelogo {
+				width: 2rem;
+			}
+			.citation {
+				position: relative;
+				margin: 0;
+				margin-top: 0.2rem;
+				margin-left: 2.5rem;
+				color: inherit;
+				font-style: italic;
+				display: flex;
+				flex-direction: row;
+				justify-content: left;
+				align-items: center;
+			}
+		}
+		.quote_torvalds {
+			flex-direction: row;
+			justify-content: left;
+			align-items: center;
+			font-size: 1.5rem;
+			display: inline-block;
+			background: url("../img/linux-brands.svg") no-repeat;
+			background-size: 2rem;
+			margin-top: 1.5rem;
+			.quotelogo {
+				width: 2rem;
+			}
+			.citation {
+				position: relative;
+				margin: 0;
+				margin-top: 0.2rem;
+				margin-left: 2.5rem;
+				color: inherit;
+				font-style: italic;
+				display: flex;
+				flex-direction: row;
+				justify-content: left;
+				align-items: center;
+			}
 		}
 	}
 }
