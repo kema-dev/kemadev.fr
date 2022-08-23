@@ -36,6 +36,7 @@
 	width: 100%;
 	.title_logo {
 		height: 12rem;
+		max-width: 80%;
 		margin-bottom: 3vh;
 		transition: height 1s ease;
 	}
@@ -58,7 +59,7 @@
 				bottom: 10%;
 				left: 50%;
 				z-index: 1;
-				max-width: 2rem;
+				width: 4vh;
 				filter: opacity(0.75) drop-shadow(0 0 1rem rgb(230, 197, 10));
 				animation: bounce 2.5s ease-in-out infinite;
 			}
