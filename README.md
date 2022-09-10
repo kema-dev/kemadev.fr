@@ -1,6 +1,11 @@
 <div id="top"></div>
 
-[![Jekyll deployment](https://github.com/kema-dev/kemadev.fr/actions/workflows/pages.yml/badge.svg)](https://github.com/kema-dev/kemadev.fr/actions/workflows/pages.yml)
+<p align=center>
+  <img alt="Project's status" src="https://img.shields.io/badge/Status-Maintained-success">
+  <img alt="Project's deployment status" src="https://github.com/kema-dev/kemadev.fr/actions/workflows/pages.yml/badge.svg">
+  <img alt="Project's primary language" src="https://img.shields.io/badge/Language-Jekyll%20/%20HTML%20CSS%20JS-blue">
+  <img alt="Project's focus" src="https://img.shields.io/badge/Focus-Web-blue">
+</p>
 
 ## About The Project
 
